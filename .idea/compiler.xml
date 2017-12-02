@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="micro-client" />
+        <module name="micro-server" />
+        <module name="mirco-register" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="micro-client" target="1.8" />
+      <module name="micro-parent" target="1.8" />
+      <module name="micro-server" target="1.8" />
+      <module name="mirco-register" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
